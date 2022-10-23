@@ -1,0 +1,31 @@
+.row h4{
+    color:#ffa500;
+}
+img{
+    width:500px;
+    height:500px;
+}
+.right{
+  background-color: #f9f9f9;
+  color:black;
+}
+.btn{
+   margin: auto;
+}
+.score-container{
+    background-color: #3f4c4c;
+    height: auto;
+    color:white;
+    visibility: hidden;
+}
+.retry{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
+#small{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+}

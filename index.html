@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun with Number</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+     <div class="container shadow mt-2 d-flex vh-100 text-center border border-warning" >
+       
+        <div class="row mx-auto w-100">
+            <div class="col-sm-12 col-lg-6 bg-light p-2">
+               
+                <h4>Guess the Number</h4>
+                 <img src="guess_img.png" class="img-fluid" alt="guess the number">
+            </div>
+            <div class="col-sm-12 col-lg-6  p-2 right">
+                <p class="text-center">Can you help me to Guess the Actual Number between 1 to 100</p>
+                <span id="span" ></span>
+                <input class="d-block w-75 p-1 mx-auto mt-3" id="input_val" type="text" placeholder="Enter the Guess Number here"/>
+                <button type="button" class="btn btn-info mt-3 d-block">Guess</button>
+                <div class="score-container">
+                    <small id="small"></small>
+                <small id="score"></small>
+                <button type="button" class="btn btn-info mt-2 d-block retry" onclick="reStart()">Retry</button>
+                </div>
+            </div>
+        </div>
+
+     </div>
+
+     
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
