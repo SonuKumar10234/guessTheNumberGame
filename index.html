@@ -10,7 +10,7 @@
 </head>
 <body>
     
-     <div class="container shadow mt-2 d-flex vh-100 text-center border border-warning" >
+     <div class="container shadow d-flex text-center border border-warning" >
        
         <div class="row mx-auto w-100">
             <div class="col-sm-12 col-lg-6 bg-light p-2">
@@ -18,15 +18,15 @@
                 <h4>Guess the Number</h4>
                  <img src="guess_img.png" class="img-fluid" alt="guess the number">
             </div>
-            <div class="col-sm-12 col-lg-6  p-2 right">
-                <p class="text-center">Can you help me to Guess the Actual Number between 1 to 100</p>
+            <div class="col-sm-12 col-lg-6 p-2 right">
+                <h1 class="text-center fs-6"><span>Can you help me to Guess the Actual Number between 1 to 100</span></h1>
                 <span id="span" ></span>
                 <input class="d-block w-75 p-1 mx-auto mt-3" id="input_val" type="text" placeholder="Enter the Guess Number here"/>
                 <button type="button" class="btn btn-info mt-3 d-block">Guess</button>
                 <div class="score-container">
                     <small id="small"></small>
-                <small id="score"></small>
-                <button type="button" class="btn btn-info mt-2 d-block retry" onclick="reStart()">Retry</button>
+                    <small id="score"></small>
+                    <button type="button" class="btn btn-info mt-2 mb-2 d-block retry" onclick="reStart()">Retry</button>
                 </div>
             </div>
         </div>
