@@ -11,8 +11,10 @@ let scoreContainer = document.querySelector('.score-container');
 let noOfGuess = 0;
 let totalAttempts = 10;
 let leftAttempts = 0;
+
 leftAttempts = totalAttempts;
-    spanTag.innerHTML = `You have ${leftAttempts} attemps.`
+spanTag.innerHTML = `You have ${leftAttempts} attemps.`
+
 button.addEventListener('click',()=>{
     
     let val = inputval.value.trim();
@@ -70,5 +72,6 @@ function reStart(){
     smallTag.innerHTML = "";
     score.innerHTML = "";
     button.classList.remove("disabled");
+    scoreContainer.classList.remove("visible");
     retryButton.classList.remove("visible");
 }
